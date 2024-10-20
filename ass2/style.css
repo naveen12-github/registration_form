@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height for vertical centering */
+}
+
+.container {
+    max-width: 400px;
+    width: 100%; /* Ensure it takes full width up to max */
+    background: #ADD8E6;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    width: 100%;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none; /* Prevent resizing */
+}
+
+.char-count {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.warning {
+    color: red;
+    margin-top: 10px;
+}
